@@ -1,0 +1,75 @@
+.main {
+  background-color: #fbf4f9;
+}
+
+.hero-section-1 {
+  padding: 30px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  gap: 26px;
+  background-color: #fbf4f9;
+
+  &-banner {
+    width: 60%;
+
+    & img {
+      width: 100%;
+      //   height: 100%;
+    }
+  }
+  &-text {
+    width: 50%;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      & .text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        & p {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24.42px;
+          letter-spacing: 5%;
+        }
+
+        & h1 {
+          font-weight: 600;
+          font-size: 80px;
+          line-height: 104px;
+        }
+      }
+      & .button {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        & button {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          background-color: #482f28;
+          color: white;
+          border-radius: 18px;
+          padding: 15px 45px;
+        }
+      }
+    }
+
+    &-product {
+      display: flex;
+      gap: 25px;
+    }
+  }
+}

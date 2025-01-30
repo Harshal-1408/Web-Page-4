@@ -1,0 +1,31 @@
+
+
+
+.header{
+    background-color: #FBF4F9;
+    .nav{
+        &bar{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 50px;
+            align-items: center;
+        }
+        &-links{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            gap: 35px;
+            align-items: center;
+            font-family: "helvetica-neue",serif;
+
+           
+        }
+        &-btns{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
+
