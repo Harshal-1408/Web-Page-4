@@ -673,6 +673,106 @@
   width: 100%;
 }
 
+.footer {
+  background-color: #36221d;
+  color: white;
+}
+.footer .offer {
+  padding: 60px 50px 50px 50px;
+}
+.footer .offer-text {
+  background: rgba(255, 255, 255, 0.0784313725);
+  padding: 40px 60px;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 81px;
+}
+.footer .offer-text-1 h6 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+}
+.footer .offer-text-2-wrapper {
+  background-color: white;
+  color: #bababa;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 89px;
+  align-items: center;
+  padding: 0 25px;
+}
+.footer .offer-text-2-wrapper .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 33.5px 0;
+  gap: 8px;
+}
+.footer .offer-text-2-wrapper .button button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #482f28;
+  color: white;
+  border-radius: 18px;
+  padding: 20px 47px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.footer .information {
+  padding: 0 50px 35px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .information .logo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .information .logo-card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer .information .general-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .information .general-info h6 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.3px;
+}
+.footer .information .general-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+}
+.footer .line {
+  border: 1px solid #ffffff;
+}
+.footer .socials {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px 30px 50px;
+}
+.footer .socials .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.86px;
+}
+.footer .socials .social-logo {
+  display: flex;
+  gap: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;

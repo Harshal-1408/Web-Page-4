@@ -1,0 +1,111 @@
+.footer {
+  background-color: #36221d;
+  color: white;
+  & .offer {
+    padding: 60px 50px 50px 50px;
+
+    &-text {
+      background: #ffffff14;
+      padding: 40px 60px;
+      border-radius: 30px;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 81px;
+      &-1 {
+        & h6 {
+          font-weight: 600;
+          font-size: 35px;
+          line-height: 60px;
+        }
+      }
+      &-2 {
+        &-wrapper {
+          background-color: white;
+          color: #bababa;
+          border-radius: 15px;
+          display: flex;
+          justify-content: space-between;
+          gap: 89px;
+          align-items: center;
+          padding: 0 25px;
+          & .email {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 33.5px 0;
+            gap: 8px;
+          }
+
+          & .button {
+            & button {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              background-color: #482f28;
+              color: white;
+              border-radius: 18px;
+              padding: 20px 47px;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+  & .information {
+    padding: 0 50px 35px 50px;
+    display: flex;
+    // gap: 133px;
+    justify-content: space-between;
+
+    & .logo-card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      & p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    & .general-info {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      & h6 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29.3px;
+      }
+      & p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.09px;
+      }
+    }
+  }
+  & .line {
+    border: 1px solid #ffffff;
+  }
+  & .socials{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px 30px 50px;
+
+    & .text{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23.86px;
+    }
+    & .social-logo{
+      display: flex;
+      gap: 30px;
+    }
+  }
+}
