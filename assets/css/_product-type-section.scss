@@ -1,0 +1,92 @@
+.product-type-section {
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: space-between;
+
+  &-text {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 91px;
+    align-items: center;
+  }
+  &-products {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    & .product-1 {
+      display: flex;
+      flex-direction: column;
+    & .bg1{
+        background-image: url(../images/product-type-section/box-1.png);
+    }& .bg2{
+        background-image: url(../images/product-type-section/box-2.png);
+    }& .bg3{
+        background-image: url(../images/product-type-section/box-3.png);
+    }& .bg4{
+        background-image: url(../images/product-type-section/box-4.png);
+    }
+      & .product-details {
+        display: flex;
+        // justify-content: space-between;
+        gap: 15px;
+        // background-color: #ffefeb;
+        // height: 134px;
+        padding: 0 5px 50px 20px;
+        
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        border-radius: 30px;
+
+
+        & .text {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: end;
+
+          & p:nth-child(1) {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 37.5px;
+          }
+          & p:nth-child(2) {
+            font-size: 14px;
+            font-weight: 400;
+            color: #606060;
+            line-height: 16.7px;
+          }
+          & p:nth-child(3) {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26.86px;
+            color: #ee8dae;
+          }
+        }
+       
+      }
+      & .button {
+        display: flex;
+        justify-content: center;
+        & button {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          background-color: #482f28;
+          color: white;
+          border-radius: 18px;
+          padding: 15px 40px;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 26px;
+          position: relative;
+          top: -40px;
+        }
+      }
+    }
+  }
+}

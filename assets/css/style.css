@@ -297,6 +297,92 @@
   top: -100px;
 }
 
+.product-type-section {
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: space-between;
+}
+.product-type-section-text {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 91px;
+  align-items: center;
+}
+.product-type-section-products {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.product-type-section-products .product-1 {
+  display: flex;
+  flex-direction: column;
+}
+.product-type-section-products .product-1 .bg1 {
+  background-image: url(../images/product-type-section/box-1.png);
+}
+.product-type-section-products .product-1 .bg2 {
+  background-image: url(../images/product-type-section/box-2.png);
+}
+.product-type-section-products .product-1 .bg3 {
+  background-image: url(../images/product-type-section/box-3.png);
+}
+.product-type-section-products .product-1 .bg4 {
+  background-image: url(../images/product-type-section/box-4.png);
+}
+.product-type-section-products .product-1 .product-details {
+  display: flex;
+  gap: 15px;
+  padding: 0 5px 50px 20px;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  border-radius: 30px;
+}
+.product-type-section-products .product-1 .product-details .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+}
+.product-type-section-products .product-1 .product-details .text p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.5px;
+}
+.product-type-section-products .product-1 .product-details .text p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #606060;
+  line-height: 16.7px;
+}
+.product-type-section-products .product-1 .product-details .text p:nth-child(3) {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.86px;
+  color: #ee8dae;
+}
+.product-type-section-products .product-1 .button {
+  display: flex;
+  justify-content: center;
+}
+.product-type-section-products .product-1 .button button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #482f28;
+  color: white;
+  border-radius: 18px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  position: relative;
+  top: -40px;
+}
+
 .container-a {
   max-width: 1440px;
   margin: 0 auto;
