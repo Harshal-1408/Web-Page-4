@@ -1,10 +1,11 @@
-@import 'navbar.scss';
-@import 'hero-section-1.scss';
-@import 'hero-section-2.scss';
-@import 'hero-section-3.scss';
-@import 'product-type-section.scss';
-@import 'learn-more-section.scss';
-@import 'detail-section.scss';
+@import "navbar.scss";
+@import "hero-section-1.scss";
+@import "hero-section-2.scss";
+@import "hero-section-3.scss";
+@import "product-type-section.scss";
+@import "learn-more-section.scss";
+@import "result-section.scss";
+@import "detail-section.scss";
 
 * {
   margin: 0;
@@ -16,6 +17,3 @@
   max-width: 1240px;
   margin: 0 auto;
 }
-
-
-

@@ -1,0 +1,36 @@
+.result-section {
+  padding: 0px 50px 60px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // justify-content: center;
+    align-items: center;
+
+    & p:nth-child(1) {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24.42px;
+    }
+    & p:nth-child(2) {
+      font-size: 70px;
+      font-weight: 600;
+      line-height: 91px;
+    }
+    & p:nth-child(3) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-image{
+    display: flex;
+    
+    justify-content: space-between;
+  }
+}
