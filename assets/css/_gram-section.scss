@@ -1,0 +1,32 @@
+.gram-section {
+  &-text {
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+
+    & div:nth-child(1) {
+      font-weight: 600;
+      font-size: 70px;
+      line-height: 91px;
+    }& div:nth-child(2) {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.42px;
+        color: #66463E;
+        display: flex;
+        align-items: end;
+        gap: 6px;
+        & img{
+            display: flex;
+        }
+      }
+  }
+  &-image{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    & img{
+        width: 100%;
+    }
+  }
+}

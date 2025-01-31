@@ -642,6 +642,37 @@
   line-height: 22.4px;
 }
 
+.gram-section-text {
+  padding: 80px 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.gram-section-text div:nth-child(1) {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 91px;
+}
+.gram-section-text div:nth-child(2) {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.42px;
+  color: #66463E;
+  display: flex;
+  align-items: end;
+  gap: 6px;
+}
+.gram-section-text div:nth-child(2) img {
+  display: flex;
+}
+.gram-section-image {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.gram-section-image img {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
