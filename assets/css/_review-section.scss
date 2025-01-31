@@ -1,0 +1,121 @@
+.review-section {
+  background: linear-gradient(
+    60.5deg,
+    #f7c894 0%,
+    #f9d4ab 14%,
+    #fbe7cf 39%,
+    #fdf4ea 62%,
+    #fffcf9 84%,
+    #ffffff 100%
+  );
+
+  &-text {
+    padding: 90px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+    &-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      &-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        &-1 {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          & p:nth-child(1) {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24.42px;
+          }
+          & p:nth-child(2) {
+            font-weight: 600;
+            font-size: 70px;
+            line-height: 91px;
+          }
+          & p:nth-child(3) {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 31.75px;
+          }
+        }
+        &-2{
+            & p{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+      }
+      &-review{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &-star{
+            display: flex;
+            gap: 10px;
+        }
+      }
+    }
+    &-2 {
+        & img:nth-child(2){
+            position: relative;
+            top: -315px;
+            left: 40px;
+        }
+        & img:nth-child(3){
+            position: relative;
+            top: -315px;
+            left: 370px;
+        } & img:nth-child(4){
+            position: relative;
+            top: -315px;
+            left: 370px;
+        } & img:nth-child(5){
+            position: relative;
+            top: -315px;
+            left: 370px;
+        }
+        &-review{
+            box-shadow: -10px 20px 45px -20px;
+            // background-image: url(../images/review-section/profile.png);
+            // background-repeat: no-repeat;
+            // background-position-x: center;
+            // background-position-y: top;
+            position: relative;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            &-wrapper{
+                padding: 75px 40px 40px 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                & .text{
+                    & p{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+                & .star{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    & p{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22.4px;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
