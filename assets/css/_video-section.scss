@@ -1,0 +1,9 @@
+.video-section {
+  padding: 50px 50px;
+  width: 100%;
+  &-image {
+    & img {
+      width: 100%;
+    }
+  }
+}

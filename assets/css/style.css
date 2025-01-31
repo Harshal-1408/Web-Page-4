@@ -530,6 +530,14 @@
   font-weight: 600;
 }
 
+.video-section {
+  padding: 50px 50px;
+  width: 100%;
+}
+.video-section-image img {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
